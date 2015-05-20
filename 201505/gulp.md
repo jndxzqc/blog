@@ -19,38 +19,46 @@ gulp --version
 使用gulp必须在当前项目安装gulp依赖才能正常使用。
 	
 用命令行进入到当前项目的根目录，然后执行下列命令：
+```
 npm install --save-dev gulp
 或者
 npm install gulp --save-dev
+```
 	
 > 到此为止，gulp已经安装完成。
 	
 ## 安装插件
-	gulp有很多插件，用来完成特定任务。
-	npm install gulp-a-name gulp-b-name
-	gulp-a-name、gulp-b-name是插件名
 	
-	查看更多gulp插件
-	http://gulpjs.com/plugins/
+gulp有很多插件，用来完成特定任务。
+```
+npm install gulp-a-name gulp-b-name
+```
+> gulp-a-name、gulp-b-name是插件名
+	
+查看更多gulp插件
+http://gulpjs.com/plugins/
 	
 ## 新建gulpfile.js
-	在当前项目的根目录下新建js文件，命名为gulpfile.js。
+在当前项目的根目录下新建js文件，命名为gulpfile.js。
 	
-	gulpfile.js文件说明
-	
-	//载入gulp插件
-	var gulp = require('gulp'),  
+gulpfile.js文件说明
+
+```javascript	
+//载入gulp插件
+var gulp = require('gulp'),  
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer');
     
-  //创建任务，build-js是任务名
-  gulp.task("build-js", function(){
+//创建任务，build-js是任务名
+gulp.task("build-js", function(){
   	
-  })
+})
+```
   
 ## 执行任务
-	gulp taskname
-	
+```
+gulp taskname
+```
 	
 	
 ## gulp API
