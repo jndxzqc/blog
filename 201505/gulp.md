@@ -62,6 +62,9 @@ gulp taskname
 	
 	
 ## gulp API
+
 具体api请参考：
+
 http://www.gulpjs.com.cn/docs/api
+
 https://github.com/gulpjs/gulp/blob/master/docs/API.md
