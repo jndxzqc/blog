@@ -1,27 +1,29 @@
 ﻿# gulp使用笔记
 ## 安装gulp
-	gulp依赖nodejs，需先安装nodejs。
-	下面介绍用npm安装gulp的方法。
-	1、全局安装
-	npm install --global gulp
-	或者
-	npm install gulp -g
+
+> gulp依赖nodejs，需先安装nodejs。
+
+下面介绍用npm安装gulp的方法。
+1、全局安装
+npm install --global gulp
+或者
+npm install gulp -g
 	
-	-------------------------------
-	> 如果本机没有安装gulp，需先全局安装一下，如果已经安装可以跳过此步骤。
+-------------------------
+> 如果本机没有安装gulp，需先全局安装一下，如果已经安装可以跳过此步骤。
 	
-	使用下列命令检测是否安装：
-	gulp --version
+使用下列命令检测是否安装：
+gulp --version
 	
-	2、当前项目安装
-	使用gulp必须在当前项目安装gulp依赖才能正常使用。
+2、当前项目安装
+使用gulp必须在当前项目安装gulp依赖才能正常使用。
 	
-	用命令行进入到当前项目的根目录，然后执行下列命令：
-	npm install --save-dev gulp
-	或者
-	npm install gulp --save-dev
+用命令行进入到当前项目的根目录，然后执行下列命令：
+npm install --save-dev gulp
+或者
+npm install gulp --save-dev
 	
-	> 到此为止，gulp已经安装完成。
+> 到此为止，gulp已经安装完成。
 	
 ## 安装插件
 	gulp有很多插件，用来完成特定任务。
