@@ -4,6 +4,7 @@
 > gulp依赖nodejs，需先安装nodejs。
 
 下面介绍用npm安装gulp的方法。
+
 1、全局安装
 npm install --global gulp
 或者
@@ -11,7 +12,6 @@ npm install gulp -g
 	
 -------------------------
 > 如果本机没有安装gulp，需先全局安装一下，如果已经安装可以跳过此步骤。
-	
 使用下列命令检测是否安装：
 gulp --version
 	
