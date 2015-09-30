@@ -17,29 +17,24 @@ npm install gulp -g
 gulp --version
 	
 2、当前项目安装
-使用gulp必须在当前项目安装gulp依赖才能正常使用。
-	
-用命令行进入到当前项目的根目录，然后执行下列命令：
+
+首先需要安装gulp。
+然后安装需要的插件。
+
+建议第一次安装的时候生成package.json文件，以后可以直接执行package文件就可以了，不需要一个一个安装插件。
+详细的命令行如下
 ```
-npm install --save-dev gulp
-或者
-npm install gulp --save-dev
+npm init   //生成package文件，然后摁enter键一步一步执行，知道结束。
+npm install gulp --save-dev   //安装gulp，并且写入到package文件
+npm install gulp-less gulp-rename --save-dev   //安装gulp-less，gulp-rename，并且写入到package文件。
 ```
-	
-> 到此为止，gulp已经安装完成。
-	
-## 安装插件
-	
+gulp插件安装完成。
+
 gulp有很多插件，用来完成特定任务。
-```
-npm install gulp-a-name gulp-b-name
-```
-> gulp-a-name、gulp-b-name是插件名
-	
 查看更多gulp插件
 http://gulpjs.com/plugins/
 	
-## 新建gulpfile.js
+3、新建gulpfile.js
 在当前项目的根目录下新建js文件，命名为gulpfile.js。
 	
 gulpfile.js文件说明
